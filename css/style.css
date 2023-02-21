@@ -1,1 +1,7 @@
-/* Denna fil skall innehålla din CSS kod */
+#wrapper {
+    display: grid;
+    width: 90%;
+    height: 90vh;
+    margin: auto;
+    grid-template-areas: ;
+}
