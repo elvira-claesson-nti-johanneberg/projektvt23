@@ -1,7 +1,45 @@
 #wrapper {
     display: grid;
-    width: 90%;
-    height: 90vh;
+    width: 100%;
+    min-height:90vh;
     margin: auto;
-    grid-template-areas: ;
+    grid-template-areas: 
+    "hd hd hd"
+    "nv nv nv"
+    "ft ft ft";
+}
+
+header{
+    grid-area: hd;
+    background-image: url("../img/head.jpg") ;
+    background-size: cover;
+}
+
+header h1{
+  text-align: center;
+  color: white;
+  font-size: 60px;
+  margin: 0%;
+}
+
+header h2{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    margin: 0%;
+}
+
+Nav ul{
+    text-align:center;
+}
+
+nav{
+    grid-area: nv;
+    background-color: rgb(193, 127, 255);
+    text-align: center;
+}
+
+footer{
+    grid-area: ft;
+    background-color: blueviolet;
 }
