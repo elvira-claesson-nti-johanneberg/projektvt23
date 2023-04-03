@@ -1,0 +1,74 @@
+#bjork {
+    display: grid;
+    width: 100%;
+    min-height:90vh;
+    margin: auto;
+    grid-template-areas: 
+    "hd hd hd"
+    "nv nv nv"
+    "ft ft ft";
+    grid-template-rows: 20vh auto 20vh;
+}
+
+header{
+    grid-area: hd;
+    background-image: url("../img/head.jpg") ;
+    background-size: cover;
+}
+
+header h1{
+  text-align: center;
+  color: white;
+  font-size: 60px;
+  margin: 0%;
+}
+
+header h2{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    margin: 0%;
+}
+
+Nav ul{
+    text-align:center;
+    list-style: none;
+}
+
+nav{
+    display: flex;
+    grid-area: nv;
+    background-color: #7eb79e;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    justify-content: space-between;
+}
+
+nav img {
+    width: 50%;
+    height:90%;
+    object-fit: cover;
+    margin-top: 0.5rem;
+}
+
+
+#section3{
+    align-self: center;
+    justify-self: flex-end;
+    width: 100%;
+    color:rgb(255, 255, 255); 
+
+}
+
+a{
+    color: inherit;
+}
+
+footer{
+    grid-area: ft;
+    background-color:#65937f;
+}
+
+footer h3, ul {
+    color: rgb(255, 255, 255);  
+}
