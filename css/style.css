@@ -30,9 +30,11 @@ header h2{
     margin: 0%;
 }
 
+
 Nav ul{
     text-align:center;
     list-style: none;
+
 }
 
 nav{
@@ -42,7 +44,10 @@ nav{
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
     justify-content: space-between;
+
 }
+
+
 
 nav img {
     width: 50%;
